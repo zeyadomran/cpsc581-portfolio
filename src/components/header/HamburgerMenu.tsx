@@ -1,5 +1,5 @@
-import React from "react";
-import { Spiral as Hamburger } from "hamburger-react";
+import React from 'react';
+import { Spiral as Hamburger } from 'hamburger-react';
 
 interface HamburgerMenuProps {
 	isOpen: boolean;
@@ -13,7 +13,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ isOpen, setIsOpen }) => {
 				color="#070707"
 				size={32}
 				toggled={isOpen}
-				toggle={setIsOpen}
+				toggle={setIsOpen as any}
 			/>
 		</div>
 	);

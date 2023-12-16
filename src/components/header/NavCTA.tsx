@@ -1,5 +1,5 @@
-import { CgArrowLongDown } from "react-icons/cg";
-const NavCTA: React.FC = ({ children }) => {
+import { CgArrowLongDown } from 'react-icons/cg';
+const NavCTA: React.FC<any> = ({ children }) => {
 	return (
 		<li>
 			<button className="">
