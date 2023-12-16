@@ -34,7 +34,7 @@ export default function Home() {
 		{
 			name: 'Emoji chat',
 			description:
-				"Emoji chat is an app where friends can join a chat room and talk to each other using Emojis. The app analyzes each person's facial features to see what tone they are talking in and then shows that tone to the other members in the form of emojis. The app also analyzes everyone's speech and converts it into text that other members can read.",
+				"Emoji chat is an app where friends can join a chat room and talk to each other using Emojis. It analyzes each person's facial expression as well as transcribing their audio.",
 			year: 2023,
 			url: 'https://cpsc581project4.carrd.co/',
 			technologies: [
